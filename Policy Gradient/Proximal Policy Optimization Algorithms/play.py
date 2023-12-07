@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from matplotlib import animation
-from PPO3 import *
+from PPO import *
 
 
 def play(env, agent, episode_n, env_name, state_rms, output_gif=False):
