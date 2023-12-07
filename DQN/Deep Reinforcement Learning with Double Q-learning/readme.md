@@ -80,6 +80,6 @@ DQN最终收敛结果偏高，而且与真实值有较大差距；Double DQN最�
 
 Double DQN（深蓝色）和DQN（玫红色）都使用Prioritized experience replay，在Pong上训练结果如下：
 
-![image-20231119153400360](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20231119153400360.png)
+![train_rewards](.\train_rewards.png)
 
 在Pong上的Double DQN效果并不明显。
