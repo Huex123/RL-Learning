@@ -9,7 +9,7 @@
 
 
 
-![TRPO伪代码](.\algorithm.svg)
+![TRPO伪代码](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/Trust%20Region%20Policy%20Optimization/algorithm.svg)
 
 
 
