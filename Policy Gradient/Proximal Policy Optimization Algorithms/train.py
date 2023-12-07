@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from torch.utils.tensorboard import SummaryWriter
-from PPO3 import *
+from PPO import *
 
 
 if __name__ == '__main__':
