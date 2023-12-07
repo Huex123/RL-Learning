@@ -10,7 +10,7 @@
 
 REINFORCE 算法便是采用了蒙特卡洛方法来估计 $R(\tau)$ ，即：$R(\tau)=\sum_{t'=t}^T{\gamma^{t'-t}r_{t'}}$ 。
 
-![algorhtim](.\algorhtim.png)
+![algorhtim](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/REINFORCE/algorhtim.png)
 
 
 
@@ -28,6 +28,6 @@ REINFORCE 算法便是采用了蒙特卡洛方法来估计 $R(\tau)$ ，即：$R
 
 ### results
 
-![REINFORCE_train_rewards1](.\REINFORCE_train_rewards1.png)
+![REINFORCE_train_rewards1](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/REINFORCE/REINFORCE_train_rewards1.png)
 
 其中，该CartPole环境最大奖励为500，可看到，训练很有效果，但是REINFORCE 算法的梯度估计的方差很大，可能会造成一定程度上的不稳定。
