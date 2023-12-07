@@ -44,7 +44,7 @@ frame-skipping（跳帧）：agent每 k 帧选择一次动作，在跳过的帧�
 
 
 
-![image-20231114210109369](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20231114210109369.png)
+![Algorithm](.\Algorithm.png)
 
 
 
@@ -71,8 +71,8 @@ frame-skipping（跳帧）：agent每 k 帧选择一次动作，在跳过的帧�
 
 单纯experience replay无Prioritized experience replay（深蓝色） 和 Prioritized experience replay（玫红色、浅蓝色）的训练对比：
 
-![image-20231119153156638](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20231119153156638.png)
+![train_rewards1](.\train_rewards1.png)
 
-![image-20231118214020034](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20231118214020034.png)
+![train_rewards2](.\train_rewards2.png)
 
 可以看到收敛速度有所提高。
