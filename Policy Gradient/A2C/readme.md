@@ -24,15 +24,15 @@ Critic : $L(w)=\frac{1}{2}(r+\gamma V_w(s_{t+1})-V_w(s_t))^2$.
 
 AC单步更新，因为直接可求出优势函数A，而reinforce则蒙特卡洛跑完一回合才得到序列的R。根据更新公式，V值网络显然可以单步更新；策略网络是累加的更新，可以单步逐步更新来达到要求。
 
-![p1](.\p1.png)
+![p1](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/A2C/p1.png)
 
 小技巧：
 
-![p2](.\p2.png)
+![p2](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/A2C/p2.png)
 
 伪代码：
 
-![img](.\algorithm.png)
+![img](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/A2C/algorithm.png)
 
 但此次训练还是1个episode更新一次。
 
@@ -58,10 +58,10 @@ AC单步更新，因为直接可求出优势函数A，而reinforce则蒙特卡�
 
 [神经网络训练，碰到断崖式下跌，且每次训练效果都相差极大-知乎](https://www.zhihu.com/question/61076394/answer/183685893)
 
-![failed](.\failed.png)
+![failed](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/A2C/failed.png)
 
 根据实验结果我们可以发现，Actor-Critic 算法很快便能收敛到最优策略，并且训练过程非常稳定，抖动情况相比 REINFORCE 算法有了明显的改进，这说明价值函数的引入减小了方差。
 
 A2C(红色)、REINFORCE(蓝色)。
 
-![train_rewards](D:\StudyNotes\Papers_Reproduction\RL\Policy Gradient\A2C\train_rewards.png)
+![train_rewards](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/A2C/train_rewards.png)
