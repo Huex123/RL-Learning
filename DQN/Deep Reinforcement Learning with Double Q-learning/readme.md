@@ -80,6 +80,6 @@ DQN最终收敛结果偏高，而且与真实值有较大差距；Double DQN最�
 
 Double DQN（深蓝色）和DQN（玫红色）都使用Prioritized experience replay，在Pong上训练结果如下：
 
-![train_rewards](.\train_rewards.png)
+![train_rewards](https://github.com/Huex123/RL-Learning/blob/main/DQN/Deep%20Reinforcement%20Learning%20with%20Double%20Q-learning/train_rewards.png)
 
 在Pong上的Double DQN效果并不明显。
