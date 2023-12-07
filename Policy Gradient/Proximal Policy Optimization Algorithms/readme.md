@@ -72,5 +72,5 @@ PPO是off-policy，故可采样一个episode，然后用这些数据更新n次�
 
 `Hopper-v4`环境下训练奖励如下：
 
-![Hopper-v4_PPO_train_rewards3](D:\StudyNotes\Papers_Reproduction\RL\Policy Gradient\Proximal Policy Optimization Algorithms\2\Hopper-v4\Hopper-v4_PPO_train_rewards3.png)
+![Hopper-v4_PPO_train_rewards3](https://github.com/Huex123/RL-Learning/blob/main/Policy%20Gradient/Proximal%20Policy%20Optimization%20Algorithms/Hopper-v4/Hopper-v4_PPO_train_rewards3.png)
 
