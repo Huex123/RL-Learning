@@ -44,7 +44,7 @@ frame-skipping（跳帧）：agent每 k 帧选择一次动作，在跳过的帧�
 
 
 
-![Algorithm](.\Algorithm.png)
+![Algorithm](https://github.com/Huex123/RL-Learning/blob/main/DQN/Human-level%20control%20through%20deep%20reinforcement%20learning/Algorithm.png)
 
 
 
@@ -71,8 +71,8 @@ frame-skipping（跳帧）：agent每 k 帧选择一次动作，在跳过的帧�
 
 单纯experience replay无Prioritized experience replay（深蓝色） 和 Prioritized experience replay（玫红色、浅蓝色）的训练对比：
 
-![train_rewards1](.\train_rewards1.png)
+![train_rewards1](https://github.com/Huex123/RL-Learning/blob/main/DQN/Human-level%20control%20through%20deep%20reinforcement%20learning/train_rewards1.png)
 
-![train_rewards2](.\train_rewards2.png)
+![train_rewards2](https://github.com/Huex123/RL-Learning/blob/main/DQN/Human-level%20control%20through%20deep%20reinforcement%20learning/train_rewards2.png)
 
 可以看到收敛速度有所提高。
